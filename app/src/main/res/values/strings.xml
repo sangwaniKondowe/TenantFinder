@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TenantFinder</string>
+    <string name="tenantfinder">tenantfinder</string>
+    <string name="find_unique_places_that_makes_you_feel_at_home">Find unique places that makes you feel at home!</string>
+    <string name="tenant">Tenant</string>
+    <string name="landlord">Landlord</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_role">Select role:</string>
+    <string name="selandlord">Landlord</string>
+    <string name="setenant">Tenant</string>
+    <string name="register">Register</string>
+    <string name="Lemail">Email</string>
+    <string name="Lpassword">Password</string>
+    <string name="pic">pic</string>
+    <string name="log_in">Log in</string>
+    <string name="welcome">Welcome!!</string>
+    <string name="to_let_you_manage_your_places_this_area_helps_you_to_do_that_click_on_the_preferred_option_to_get_started">To let you manage your places, this area helps you to do that. Click on the preferred option to get started.</string>
+    <string name="to_let_you_manage_your_places_this_area_helps_you_do_that_click_on_the_preferred_option_below_to_get_started">To let you manage your places, this area helps you do that. Click on the preferred option below to get started:</string>
+    <string name="add_places">Add places</string>
+    <string name="remove_tenant_place">Remove tenant/place</string>
+    <string name="notification_s">Notification(s)</string>
+    <string name="log_out">Log out</string>
+    <string name="location">Location</string>
+    <string name="place">Place</string>
+    <string name="description">Description</string>
+    <string name="room">Room</string>
+    <string name="remove">Remove</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_room_frga">My Room Frga</string>
+    <string name="profile_frag">Profile frag</string>
+    <string name="discover_frag">Discover Frag</string>
+    <string name="user">User</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="are_you_a_tenant_sign_up_here">Are you a tenant? Sign up here.</string>
+    <string name="price">Price</string>
+    <string name="upload">Upload</string>
+</resources>
