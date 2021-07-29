@@ -19,6 +19,7 @@
 <!--        app:srcCompat="@drawable/logpic" />-->
 
     <ImageView
+        android:contentDescription="@string/todo"
         android:id="@+id/imageView12"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -49,15 +50,17 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="10dp"
+            android:autofillHints="@string/phone_number"
             android:background="@drawable/input_rounded_corners"
             android:drawableStart="@drawable/ic_baseline_phone_android_24"
             android:drawablePadding="2dp"
             android:ems="10"
-            android:hint="Phone Number"
+            android:hint="@string/phone_number"
             android:inputType="phone"
             android:padding="10dp" />
 
         <EditText
+            android:autofillHints="@string/password"
             android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,7 +73,7 @@
             android:drawableStart="@drawable/ic_lock"
             android:drawablePadding="2dp"
             android:ems="10"
-            android:hint="password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="10dp" />
 
@@ -82,7 +85,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/rounded_corners"
-            android:text="Login"
+            android:text="@string/login"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 

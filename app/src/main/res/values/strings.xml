@@ -7,7 +7,6 @@
     <string name="sign_up">Sign Up</string>
     <string name="username">Username</string>
     <string name="email">Email</string>
-    <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="select_role">Select role:</string>
     <string name="selandlord">Landlord</string>
@@ -26,7 +25,6 @@
     <string name="log_out">Log out</string>
     <string name="location">Location</string>
     <string name="place">Place</string>
-    <string name="description">Description</string>
     <string name="room">Room</string>
     <string name="remove">Remove</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -38,6 +36,16 @@
     <string name="re_enter_password">Re-enter password</string>
     <string name="phone_number">Phone Number</string>
     <string name="are_you_a_tenant_sign_up_here">Are you a tenant? Sign up here.</string>
-    <string name="price">Price</string>
     <string name="upload">Upload</string>
+    <string name="login">Login</string>
+    <string name="description">Description</string>
+    <string name="add_image">Add image</string>
+    <string name="title">Title</string>
+    <string name="price">Price</string>
+    <string name="book">Book</string>
+    <string name="todo">TODO</string>
+    <string name="search">Search</string>
+    <string name="password">Password</string>
+    <string name="are_you_a_tenant">Are you a tenant?</string>
+    <string name="sign_up_here">Sign up here.</string>
 </resources>

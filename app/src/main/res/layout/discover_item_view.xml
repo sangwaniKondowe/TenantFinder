@@ -9,6 +9,7 @@
     <ImageView
         android:id="@+id/iv_discover_avatar"
         android:layout_width="150dp"
+        android:contentDescription="@string/todo"
         android:layout_height="150dp"
         app:srcCompat="@drawable/ic_email" />
 
@@ -23,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:text="Title"
+            android:text="@string/title"
             android:textSize="18sp" />
 
         <TextView
@@ -31,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:text="Price" />
+            android:text="@string/price" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_discover_book"
@@ -41,6 +42,6 @@
             android:textColor="@color/white"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:text="Book" />
+            android:text="@string/book" />
     </LinearLayout>
 </LinearLayout>

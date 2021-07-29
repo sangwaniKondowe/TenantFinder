@@ -34,24 +34,24 @@
             android:padding="10dp" />
 
 
-    <EditText
-        android:id="@+id/landlord_username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:autofillHints="@string/username"
-        android:background="@drawable/input_rounded_corners"
-        android:drawableStart="@drawable/ic_baseline_description_24"
-        android:drawablePadding="2dp"
-        android:ems="10"
-        android:hint="Decription"
-        android:inputType="text"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/descri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:autofillHints="@string/description"
+            android:background="@drawable/input_rounded_corners"
+            android:drawableStart="@drawable/ic_baseline_description_24"
+            android:drawablePadding="2dp"
+            android:ems="10"
+            android:hint="@string/description"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/img"
@@ -65,7 +65,7 @@
             android:drawableStart="@drawable/ic_baseline_image_24"
             android:drawablePadding="2dp"
             android:ems="10"
-            android:hint="Add image"
+            android:hint="@string/add_image"
             android:inputType=""
             android:padding="10dp"
             app:layout_constraintEnd_toEndOf="parent"

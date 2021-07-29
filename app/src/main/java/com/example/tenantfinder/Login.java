@@ -14,10 +14,10 @@ public class Login extends AppCompatActivity{
         setContentView(R.layout.activity_login_form);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Button btn = (Button)findViewById(R.id.btn_login_send_request);
+        Button btn = findViewById(R.id.btn_login_send_request);
 
         btn.setOnClickListener(v -> {
-            Intent intent4 = new Intent(Login.this, PlaceDetails.class);
+            Intent intent4 = new Intent(Login.this, TenantHomeActivity.class);
             startActivity(intent4);
         });
 
