@@ -23,15 +23,16 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:autofillHints="@string/search"
             android:id="@+id/editTextTextPersonName2"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
+            android:autofillHints="@string/search"
             android:background="@drawable/input_rounded_corners"
             android:drawableEnd="@drawable/ic_search"
+            android:drawableTint="@color/colorAccent"
             android:ems="10"
             android:hint="@string/search"
             android:inputType="textPersonName"
