@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/tntEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -61,7 +61,7 @@
 
         <EditText
             android:autofillHints="@string/password"
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/tntPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -78,7 +78,7 @@
             android:padding="10dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_login_send_request"
+            android:id="@+id/btn_signup_send_request"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

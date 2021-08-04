@@ -35,7 +35,7 @@
 
 
         <EditText
-            android:id="@+id/descri"
+            android:id="@+id/tntname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -74,7 +74,7 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_login_send_request"
+            android:id="@+id/btn_signup_send_request"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
