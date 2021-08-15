@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent2);
         });
         btn.setOnClickListener(v -> {
-            Intent intent2 = new Intent(MainActivity.this, Login.class);
-            startActivity(intent2);
+            Intent intent = new Intent(MainActivity.this, LandlordLogin.class);
+            startActivity(intent);
         });
     }
 }

@@ -11,14 +11,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class landlord_form_activity extends AppCompatActivity {
 
+public class landlord_form_activity extends AppCompatActivity {
     EditText username, email, phoneNumber, password, reenterPassword;
     Button signUp;
     String mUserName, mEmail, mPhoneNumber, mPassword, mConfPassword;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+   protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landlord_form);
 
@@ -27,8 +27,8 @@ public class landlord_form_activity extends AppCompatActivity {
         phoneNumber = findViewById(R.id.landlord_phone);
         password = findViewById(R.id.tntPassword);
         reenterPassword = findViewById(R.id.tnt_confirmPassword);
-        signUp = findViewById(R.id.btn_signup_send_request);
-        
+        signUp = findViewById(R.id.btn_signup_send_request_lnd);
+
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,13 +89,79 @@ public class landlord_form_activity extends AppCompatActivity {
         return mUserName != null && mEmail != null && mPhoneNumber != null && mPassword != null && reenterPassword != null;
 
 }
-
-
-
-
-
-    public void onClickSignUp(View view) {
+public void onClickSignUp(View view) {
         Intent intent = new Intent(this, tenant_form_activity.class);
         startActivity(intent);
-    }
-}
+        }
+        }
+
+//public class landlord_form_activity extends AppCompatActivity {
+//
+//    EditText mUsername, mEmail, mPhoneNumber, mPassword, mReenterPassword;
+//    Button mSignUp;
+//    FirebaseAuth fAuth;
+//    ProgressBar progressBar;
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_landlord_form);
+//
+//        mUsername = findViewById(R.id.tntname);
+//        mEmail = findViewById(R.id.email);
+//        mPhoneNumber = findViewById(R.id.landlord_phone);
+//        mPassword = findViewById(R.id.tntPassword);
+//        mReenterPassword = findViewById(R.id.tnt_confirmPassword);
+//        mSignUp = findViewById(R.id.btn_signup_send_request);
+//
+//        fAuth = FirebaseAuth.getInstance();
+//        progressBar = findViewById(R.id.progressBar);
+//
+//        if (fAuth.getCurrentUser() != null) {
+//            startActivity(new Intent(getApplicationContext(), TenantDiscoverFragment.class));
+//            finish();
+//        }
+//
+//        mSignUp.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                String email = mEmail.getText().toString().trim();
+//                String password = mPassword.getText().toString().trim();
+//
+//                if(TextUtils.isEmpty(email)) {
+//                    mEmail.setError("Email is required!");
+//                    return;
+//                }
+//                if(TextUtils.isEmpty(password)) {
+//                    mPassword.setError("Password is required!");
+//                    return;
+//                }
+//                if (password.length() < 6 ) {
+//                    mPassword.setError("Password must be >= 6 characters!");
+//                    return;
+//                }
+//
+//                progressBar.setVisibility(View.VISIBLE);
+//
+//                //register user in firebase
+//
+//                fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+//                    @Override
+//                    public void onComplete(@NonNull Task<AuthResult> task) {
+//                       if (task.isSuccessful()) {
+//                           Toast.makeText(landlord_form_activity.this, "User created!", Toast.LENGTH_SHORT).show();
+//                           startActivity(new Intent(getApplicationContext(), TenantDiscoverFragment.class));
+//                       } else {
+//                           Toast.makeText(landlord_form_activity.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+//                       }
+//                    }
+//                });
+//
+//
+//            }
+//        });
+//
+//
+//
+//    }
+

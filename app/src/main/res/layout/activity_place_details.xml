@@ -74,13 +74,14 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_signup_send_request"
+            android:id="@+id/btn_signup_send_request_lnd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="16dp"
             android:layout_marginRight="40dp"
-            android:background="@drawable/rounded_corners"
+            android:background="@drawable/input_rounded_corners"
+            android:backgroundTint="@color/defaultColor"
             android:textSize="20sp"
             android:text="@string/upload"
             android:textAllCaps="false"

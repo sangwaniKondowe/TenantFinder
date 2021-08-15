@@ -54,4 +54,7 @@
     <string name="password_error">"Enter a password!"</string>
     <string name="error_invalid_password">"Enter a minimum password of 6 characters!"</string>
     <string name="confirmation_eror">"Password does not match!"</string>
+    <string name="user_has_requested_for_place_so_and_so_walla_walla">user ----- has requested for place so and so. walla walla</string>
+    <string name="optionimg">optionImg</string>
+    <string name="phone">Phone:</string>
 </resources>

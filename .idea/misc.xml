@@ -3,8 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/drawable/input_rounded_corners.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/drawable/rounded_corners.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_landlord.xml" value="0.209375" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_landlord_form.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_landlord_login.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_login_form.xml" value="0.22" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_my_chat_app.xml" value="0.25" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_notifications.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_place_details.xml" value="0.1" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_tenant_form.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_tenant_home.xml" value="0.2046875" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_view_remove.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/discover_item_view.xml" value="0.33" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/fragment_tenant_discover_fragment.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/notf.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/notification_item_view.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/notifications_layout.xml" value="0.25" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/review_layout.xml" value="0.209375" />
       </map>
     </option>
   </component>

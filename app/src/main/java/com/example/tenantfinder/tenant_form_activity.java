@@ -25,7 +25,7 @@ public class tenant_form_activity extends AppCompatActivity {
         email = findViewById(R.id.tntEmail);
         password = findViewById(R.id.tntPassword);
         reenterPassword = findViewById(R.id.tnt_confirmPassword);
-        signUp = findViewById(R.id.btn_signup_send_request_tnt);
+        signUp = findViewById(R.id.btn_signup_send_request_lnd);
 
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override

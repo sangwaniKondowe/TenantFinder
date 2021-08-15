@@ -6,21 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class Login extends AppCompatActivity{
+public class LandlordLogin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_form);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setContentView(R.layout.activity_landlord_login);
 
-        Button btn = findViewById(R.id.btn_tenant_login);
+        Button btn = (Button) findViewById(R.id.btn_signup_send_request_lnd);
 
         btn.setOnClickListener(v -> {
-            Intent intent4 = new Intent(Login.this, TenantHomeActivity.class);
-            startActivity(intent4);
+            Intent intent3 = new Intent(LandlordLogin.this, Landlord.class);
+            startActivity(intent3);
         });
-
-
     }
 }

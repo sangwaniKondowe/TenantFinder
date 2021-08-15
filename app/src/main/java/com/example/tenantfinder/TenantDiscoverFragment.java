@@ -86,16 +86,17 @@ public class TenantDiscoverFragment extends Fragment {
 //            this.title = title;
 //            this.price = price;
 //            this.imageUrl = imageUrl;
+//            this.phone = phone;
 //        }
 
-        DiscoverModel r1 = new DiscoverModel("Mkondowe", "2000", "dfghjk");
-        DiscoverModel r2 = new DiscoverModel("Daelo", "2000", "dfghjk");
-        DiscoverModel r3 = new DiscoverModel("Fact", "2000", "dfghjk");
-        DiscoverModel r4 = new DiscoverModel("Chisomo", "2000", "dfghjk");
-        DiscoverModel r5 = new DiscoverModel("Maxy", "2000", "dfghjk");
-        DiscoverModel r6 = new DiscoverModel("Jumbo", "2000", "dfghjk");
-        DiscoverModel r7 = new DiscoverModel("Hule Malunga", "2000", "dfghjk");
-        DiscoverModel r8 = new DiscoverModel("Simwela", "2000", "dfghjk");
+        DiscoverModel r1 = new DiscoverModel("Single room","0983992164", "2000", "dfghjk");
+        DiscoverModel r2 = new DiscoverModel("Self contained","0983992164", "2000", "dfghjk");
+        DiscoverModel r3 = new DiscoverModel("Boys quarters","0983992164", "2000", "dfghjk");
+        DiscoverModel r4 = new DiscoverModel("Double","0983992164", "2000", "dfghjk");
+        DiscoverModel r5 = new DiscoverModel("Single room","0983992164", "2000", "dfghjk");
+        DiscoverModel r6 = new DiscoverModel("Apartment","0983992164", "2000", "dfghjk");
+        DiscoverModel r7 = new DiscoverModel("Ghetto","0983992164", "2000", "dfghjk");
+        DiscoverModel r8 = new DiscoverModel("Shambles","0983992164", "2000", "dfghjk");
 
         r.add(r1);
         r.add(r2);
@@ -103,7 +104,8 @@ public class TenantDiscoverFragment extends Fragment {
         r.add(r4);
         r.add(r5);
         r.add(r6);
-        r.add(r7); r.add(r8);
+        r.add(r7);
+        r.add(r8);
 
         return  r;
     }

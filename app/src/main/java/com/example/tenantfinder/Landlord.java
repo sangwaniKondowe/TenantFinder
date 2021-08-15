@@ -28,4 +28,9 @@ public class Landlord extends AppCompatActivity {
         Intent intent = new Intent(this, Notifications.class);
         startActivity(intent);
     }
+
+    public void goBack(View view) {
+        Intent intent = new Intent(this, LandlordLogin.class);
+        startActivity(intent);
+    }
 }

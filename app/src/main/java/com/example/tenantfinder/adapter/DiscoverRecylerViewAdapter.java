@@ -22,7 +22,7 @@ public class DiscoverRecylerViewAdapter  extends RecyclerView.Adapter<DiscoverRe
     List<DiscoverModel> discoverModelList = new ArrayList<>();
     Context ctx;
 
-    TextView tvTitle, tvPrice;
+    TextView tvTitle, tvPrice, tvPhone;
     Button btnBook;
     ImageView ivAvatar;
 
@@ -45,7 +45,9 @@ public class DiscoverRecylerViewAdapter  extends RecyclerView.Adapter<DiscoverRe
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         tvTitle.setText(discoverModelList.get(position).getTitle());
+        tvPhone.setText(discoverModelList.get(position).getPhone());
         tvPrice.setText(discoverModelList.get(position).getPrice());
+
 
     }
 
@@ -54,6 +56,7 @@ public class DiscoverRecylerViewAdapter  extends RecyclerView.Adapter<DiscoverRe
         public MyViewHolder(@NonNull  View itemView) {
             super(itemView);
             tvTitle = itemView.findViewById(R.id.tv_discover_title);
+            tvPhone = itemView.findViewById(R.id.tv_discover_phone);
             tvPrice = itemView.findViewById(R.id.tv_discover_price);
             btnBook = itemView.findViewById(R.id.btn_discover_book);
             ivAvatar = itemView.findViewById(R.id.iv_discover_avatar);
