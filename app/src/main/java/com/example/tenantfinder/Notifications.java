@@ -33,10 +33,10 @@ public class Notifications extends AppCompatActivity {
          myNotAdapter = new myNotAdapter(this,notificatArrayList, this);
          recyclerView.setAdapter(myNotAdapter);
 
-         DividerItemDecoration decoration = new DividerItemDecoration(recyclerView.getContext(), r.getOrientation());
-         recyclerView.addItemDecoration(decoration);
+       //  DividerItemDecoration decoration = new DividerItemDecoration(recyclerView.getContext(), r.getOrientation());
+       //  recyclerView.addItemDecoration(decoration);
          notificatNote = new String[] {
-                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                 "The user ---- has requested to book place -----.",
                  " sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                  "Mauris sit amet massa vitae tortor condimentum lacinia quis.",
                  "orci porta non pulvinar neque laoreet suspendisse interdum",

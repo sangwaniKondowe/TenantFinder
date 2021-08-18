@@ -100,7 +100,7 @@
             android:background="@drawable/rounded_corners"
             android:text="@string/sign_up"
             android:textAllCaps="false"
-            android:textColor="#795548"
+            android:textColor="@color/white"
             android:textSize="20sp"
             tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 

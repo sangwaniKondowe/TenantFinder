@@ -12,8 +12,8 @@
 
         <TextView
             android:id="@+id/textView15"
-            android:layout_width="369dp"
-            android:layout_height="66dp"
+            android:layout_width="331dp"
+            android:layout_height="64dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/input_rounded_corners"
             android:fontFamily="@font/roboto"
@@ -27,8 +27,8 @@
 
         <TextView
             android:id="@+id/room_descript"
-            android:layout_width="377dp"
-            android:layout_height="86dp"
+            android:layout_width="336dp"
+            android:layout_height="84dp"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/roboto"
             android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua"

@@ -13,12 +13,15 @@
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_my_chat_app.xml" value="0.25" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_notifications.xml" value="0.209375" />
-        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_place_details.xml" value="0.1" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_place_details.xml" value="0.25" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_sign_up.xml" value="0.2046875" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_tenant_form.xml" value="0.209375" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_tenant_home.xml" value="0.2046875" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/activity_view_remove.xml" value="0.209375" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/discover_item_view.xml" value="0.33" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/fragment_tenant_discover_fragment.xml" value="0.209375" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/fragment_tenant_me_fragment.xml" value="0.2046875" />
+        <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/fragment_tenant_my_room_fragment.xml" value="0.2046875" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/notf.xml" value="0.209375" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/notification_item_view.xml" value="0.209375" />
         <entry key="..\:/Users/SANGWANI/AndroidStudioProjects/Tenantfinder/app/src/main/res/layout/notifications_layout.xml" value="0.25" />

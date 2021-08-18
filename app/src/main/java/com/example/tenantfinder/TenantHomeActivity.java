@@ -6,7 +6,9 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -26,5 +28,10 @@ public class TenantHomeActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.tenant_nav_fragment_host);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(tenantBottomNav, navController);
+    }
+
+    public void sign_out(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

@@ -147,7 +147,7 @@
                 android:clickable="true"
                 android:onClick="onClickSignUp"
                 android:text="@string/sign_up_here"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/defaultColor"
                 android:textSize="18sp"
                 tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
         </LinearLayout>

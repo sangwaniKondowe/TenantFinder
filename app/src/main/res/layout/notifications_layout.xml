@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/notiholder"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
 
@@ -10,9 +9,16 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
+        android:layout_width="349dp"
+        android:layout_height="87dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="3dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,18 +29,18 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="376dp"
+                android:layout_width="313dp"
                 android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/tv_notification_holder"
-                    android:layout_width="350dp"
-                    android:layout_height="58dp"
+                    android:layout_width="295dp"
+                    android:layout_height="70dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="13dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="27dp"
-                    android:fontFamily="@font/roboto_mono"
+                    android:fontFamily="@font/roboto"
                     android:text="@string/user_has_requested_for_place_so_and_so_walla_walla"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -49,7 +55,7 @@
                 <ImageView
                     android:id="@+id/notification_option"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="36dp"
                     android:contentDescription="@string/optionimg"
                     android:src="@drawable/ic_baseline_more_vert_24"
                     tools:ignore="ImageContrastCheck" />
