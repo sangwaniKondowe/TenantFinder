@@ -32,8 +32,8 @@ public class View_Remove extends AppCompatActivity {
         rvAdapter = new rvAdapter(this, reviewTntArrayList, this);
         recyclerView.setAdapter(rvAdapter);
 
-        DividerItemDecoration decoration = new DividerItemDecoration(recyclerView.getContext(), r.getOrientation());
-        recyclerView.addItemDecoration(decoration);
+//        DividerItemDecoration decoration = new DividerItemDecoration(recyclerView.getContext(), r.getOrientation());
+//        recyclerView.addItemDecoration(decoration);
 
         userName = new String[] {
                 "Lorem",

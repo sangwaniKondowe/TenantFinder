@@ -91,7 +91,7 @@
             android:padding="10dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_signup_send_request_lnd"
+            android:id="@+id/btn_signup_send_request_tnt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"

@@ -61,7 +61,7 @@
 
         <EditText
             android:autofillHints="@string/password"
-            android:id="@+id/tntPassword"
+            android:id="@+id/lndPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"

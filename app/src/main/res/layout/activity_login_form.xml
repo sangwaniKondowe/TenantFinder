@@ -44,18 +44,18 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/allEmail"
+            android:id="@+id/tnt_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="10dp"
-            android:autofillHints="@string/email"
+            android:autofillHints="Username"
             android:background="@drawable/input_rounded_corners"
-            android:drawableStart="@drawable/ic_email"
+            android:drawableStart="@drawable/ic_person_user"
             android:drawablePadding="2dp"
             android:ems="10"
-            android:hint="@string/email"
+            android:hint="@string/username"
             android:inputType="textEmailAddress"
             android:padding="10dp" />
 
